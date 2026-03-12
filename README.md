@@ -1,5 +1,7 @@
 # Workflow Guard for Claude Code -- Fast Stop-Time Verification
 
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue) ![License: MIT](https://img.shields.io/github/license/VoxCore84/claude-code-workflow-guard) ![GitHub release](https://img.shields.io/github/v/release/VoxCore84/claude-code-workflow-guard)
+
 A lightweight [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) hook that catches common workflow mistakes at stop time using pure Python heuristics. No API calls. No tokens burned. Under 50 ms.
 
 ## The Problem
