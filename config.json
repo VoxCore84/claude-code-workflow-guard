@@ -1,0 +1,35 @@
+{
+  "file_categories": {
+    "compiled": {
+      "extensions": [".py", ".ts", ".cpp", ".h", ".rs", ".go", ".java", ".cs", ".swift"],
+      "reminder": "remind user to test/build"
+    },
+    "data": {
+      "extensions": [".sql", ".json", ".csv"],
+      "reminder": "remind about applying changes"
+    },
+    "config": {
+      "extensions": [".yaml", ".yml", ".toml", ".env", ".ini", ".conf"],
+      "reminder": "remind about restarting services"
+    }
+  },
+  "shared_files": [
+    "session_state.md",
+    "package.json",
+    "Cargo.toml",
+    "pyproject.toml",
+    "go.mod"
+  ],
+  "session_ending_indicators": [
+    "that should do it",
+    "all done",
+    "everything is complete",
+    "let me know if",
+    "anything else",
+    "wrapping up",
+    "that covers it",
+    "looks good to me"
+  ],
+  "wrap_up_reminder": "Session appears to be ending -- consider running /wrap-up or committing your changes.",
+  "lookback_minutes": 120
+}
