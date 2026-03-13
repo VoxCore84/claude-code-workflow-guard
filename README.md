@@ -161,8 +161,8 @@ When the agent pauses after editing C++ and SQL files near the end of a session:
 
 ```
 WORKFLOW CHECK:
-  - Compiled files edited (RolePlay.cpp, RolePlay.h) -- remind user to test/build.
-  - Data files edited (2026_03_11_01_world.sql) -- remind about applying changes.
+  - Compiled files edited (main.cpp, utils.h) -- remind user to test/build.
+  - Data files edited (migration_001.sql) -- remind about applying changes.
   - Session appears to be ending -- consider running /wrap-up or committing your changes.
   - Shared files modified (session_state.md) -- coordinate with other tabs/sessions.
 ```

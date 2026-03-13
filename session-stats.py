@@ -11,7 +11,7 @@ tool input.
 The JSONL file is consumed by workflow-guard.py (Stop hook) to detect
 workflow violations without any API calls.
 
-Hook type : PostToolUse (async — does not block the agent)
+Hook type : PostToolUse (async -- does not block the agent)
 Expects   : JSON on stdin with tool_name, tool_input, session_id, etc.
 Writes to : ~/.claude/session-stats.jsonl
 """
@@ -54,7 +54,7 @@ def main() -> None:
         with open(LOG_FILE, "a", encoding="utf-8") as fh:
             fh.write(json.dumps(entry) + "\n")
     except Exception:
-        pass  # Never block the agent — logging is best-effort.
+        pass  # Never block the agent -- logging is best-effort.
 
 
 if __name__ == "__main__":
